@@ -1,18 +1,8 @@
-# Tailwind CSS and Next.js Portfolio
+# 📈 muhammad-hamza
 
-This is a template for creating a portfolio with Tailwind CSS and Next.js.
+# 📃 Description
 
-![Portfolio Demo](demo/demo.gif)
+My personal portfolio website.
 
-## How it works
-
-Fork or download the repo and change whatever you need to change for your needs.
-
-## Running Locally
-
-Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
-
-```bash
-npm install
-npm run dev
-```
+# 👨‍💻 Stack
+![Stack](https://skillicons.dev/icons?i=tailwind,ts,react,next,netlify)
