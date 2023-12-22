@@ -18,22 +18,20 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hamza and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
+              Hi, my name is Hamza and I am a{" "} and
               <span className="font-bold">{" driven"}</span> student
-              living in Riyadh, KSA.
+              studying at the University of Waterloo.
             </p>
             <br />
             <p>
-              I graduated from Manarat International School, Riyadh in 2023
+              I graduated from MRIS, Riyadh in 2023
               with a high school diploma from the British school system. Throughout
               high school, I have been coding and working with technologies,
               growing fond of {" "}
               <span className="font-bold text-teal-500">web development</span> and {" "} 
               <span className="font-bold text-teal-500">machine learning</span>, with a newfound 
               interest in {" "}
-              <span className="font-bold text-teal-500">computational mathematics</span>.
+              <span className="font-bold text-teal-500">data analytics</span>.
             </p>
             <br />
             <p>
@@ -57,22 +55,10 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left flex flex-col justify-between">
             <div>
               <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-              <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-                {skills.map((item, idx) => {
-                  return (
-                    <p
-                      key={idx}
-                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 flex items-center justify-between rounded font-semibold"
-                    >
-                      <span className="mr-[2px]">{item.name}</span>
-                      <span>{createElement(item.icon!, { color: item.color })}</span>
-                    </p>
-                  )
-                })}
-              </div>
+              <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js,ts,react,next,nodejs,express,nestjs,mongodb,postgresql,prisma,git,postman,python,netlify,docker&theme=dark&perline=7" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold mb-6 mt-6">My Hobbies</h1>
+              <h1 className="text-2xl font-bold mb-6">My Hobbies</h1>
               <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
                 {hobbies.map((item, idx) => {
                   return (

@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">
               Student{" "}
             </span>
-            studying Computer Science with a love for web development, computational mathematics and machine learning.
+            studying Computer Science at the University of Waterloo.
           </p>
           <Link
             to="projects"
