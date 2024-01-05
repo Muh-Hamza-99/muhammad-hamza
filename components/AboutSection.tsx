@@ -55,7 +55,7 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left flex flex-col justify-between">
             <div>
               <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-              <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js,ts,react,next,nodejs,express,nestjs,mongodb,postgresql,prisma,git,postman,python,netlify,docker&theme=dark&perline=7" />
+              <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js,ts,react,next,nodejs,express,nestjs,mongodb,postgresql,prisma,git,postman,python,sklearn,tensorflow,netlify,docker,terraform&theme=dark&perline=7" />
             </div>
             <div>
               <h1 className="text-2xl font-bold mb-6">My Hobbies</h1>
