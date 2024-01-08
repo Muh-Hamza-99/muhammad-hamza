@@ -40,6 +40,12 @@ const projects: Project[] = [
     github: "https://github.com/Muh-Hamza-99/class-of-2023",
     link: "https://class-of-2023.netlify.app/",
   },
+  {
+    name: "Brain Tumor Detection",
+    description: "A Flask app to detect tumors in brain scans using a convolutional neural network.",
+    image: "/brain-tumor-detection.png",
+    github: "https://github.com/Muh-Hamza-99/brain-tumor-detection",
+  },
 ];
 
 const ProjectsSection = () => {
