@@ -28,7 +28,7 @@ const AboutSection = () => {
             <br />
             <p>
             Apart from that, I do get homesick quite a bit! Whether it be the hot, dusty and lively nights of Riyadh
-            or the scenic views and crisp air of Pakistan, I miss it. If you do as well, let's talk!
+            or the scenic views and crisp air of Pakistan, I miss it. If you do as well, let us talk!
             </p>
             <br />
             <p>
@@ -39,7 +39,7 @@ const AboutSection = () => {
             <div>
               <h1 className="text-2xl font-bold mb-6">Skills</h1>
               <div className="flex flex-wrap justify-center md:justify-normal">
-                {skills.map(icon => (<img className="p-1" src={`https://skillicons.dev/icons?i=${icon}&theme=dark`} />))}
+                {skills.map((icon, i) => (<img key={i} className="p-1" src={`https://skillicons.dev/icons?i=${icon}&theme=dark`} />))}
               </div>
             </div>
           </div>
