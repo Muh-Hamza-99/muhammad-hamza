@@ -1,7 +1,4 @@
-import { createElement } from "react";
-
 import { skills } from "@/lib/display-icons";
-import { hobbies } from "@/lib/display-icons";
 
 const AboutSection = () => {
   return (
@@ -18,59 +15,31 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hamza and I am a{" "} and
-              <span className="font-bold">{" driven"}</span> student
-              studying at the University of Waterloo.
+              Hey! My name is Hamza. I am from <span className="font-bold text-teal-500">Pakistan</span>,
+              lived in <span className="font-bold text-teal-500">{"Saudi Arabia "}</span>
+               and am now studying in <span className="font-bold text-teal-500">{"Canada "}</span>
+              studying at the University of Waterloo, with an intended major in <span className="font-bold text-teal-500">{"Computer Science "}</span>
+              & <span className="font-bold text-teal-500">Statistics</span> and an intended minor in <span className="font-bold text-teal-500">Economics</span>.
             </p>
             <br />
             <p>
-              I graduated from MRIS, Riyadh in 2023
-              with a high school diploma from the British school system. Throughout
-              high school, I have been coding and working with technologies,
-              growing fond of {" "}
-              <span className="font-bold text-teal-500">web development</span> and {" "} 
-              <span className="font-bold text-teal-500">machine learning</span>, with a newfound 
-              interest in {" "}
-              <span className="font-bold text-teal-500">data analytics</span>.
+              Whenever I come out of my programming and studying cove, I like to play the Tabla, football, cricket, squash and chess (is it a sport?).
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, content creation, to playing the Tabla,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+            Apart from that, I do get homesick quite a bit! Whether it be the hot, dusty and lively nights of Riyadh
+            or the scenic views and crisp air of Pakistan, I miss it. If you do as well, let's talk!
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my life takes me and am
-              always open to new opportunities. 🙂
+              <span className="font-bold text-teal-500">muhammad.hamzaasad@gmail.com</span>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left flex flex-col justify-between">
             <div>
-              <h1 className="text-2xl font-bold mb-6">My Skills</h1>
-              <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js,ts,react,next,nodejs,express,nestjs,mongodb,postgresql,prisma,git,postman,python,sklearn,tensorflow,netlify,docker,terraform&theme=dark&perline=7" />
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold mb-6">My Hobbies</h1>
-              <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-                {hobbies.map((item, idx) => {
-                  return (
-                    <p
-                      key={idx}
-                      className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 flex items-center justify-between rounded font-semibold"
-                    >
-                      <span className="mr-[2px]">{item.name}</span>
-                      <span>{createElement(item.icon!, { color: item.color })}</span>
-                    </p>
-                  )
-                })}
+              <h1 className="text-2xl font-bold mb-6">Skills</h1>
+              <div className="flex flex-wrap justify-center md:justify-normal">
+                {skills.map(icon => (<img className="p-1" src={`https://skillicons.dev/icons?i=${icon}&theme=dark`} />))}
               </div>
             </div>
           </div>
