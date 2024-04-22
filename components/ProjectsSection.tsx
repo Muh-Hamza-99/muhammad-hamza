@@ -46,6 +46,13 @@ const projects: Project[] = [
     image: "/brain-tumor-detection.png",
     github: "https://github.com/Muh-Hamza-99/brain-tumor-detection",
   },
+  {
+    name: "UW Scheduler",
+    description: "A simple scheduling app to plan out your term's courses and timings.",
+    image: "/uw-scheduler.png",
+    github: "https://github.com/Muh-Hamza-99/uw-scheduler",
+    link: "https://uw-scheduler.netlify.app"
+  }
 ];
 
 const ProjectsSection = () => {
