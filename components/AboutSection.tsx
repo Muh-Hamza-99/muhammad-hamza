@@ -19,7 +19,7 @@ const AboutSection = () => {
               lived in <span className="font-bold text-teal-500">{"Saudi Arabia "}</span>
                and am now studying in <span className="font-bold text-teal-500">{"Canada "}</span>
               studying at the University of Waterloo, with an intended major in <span className="font-bold text-teal-500">{"Computer Science "}</span>
-              & <span className="font-bold text-teal-500">Statistics</span> and an intended minor in <span className="font-bold text-teal-500">Economics</span>.
+              and <span className="font-bold text-teal-500">Statistics</span>.
             </p>
             <br />
             <p>

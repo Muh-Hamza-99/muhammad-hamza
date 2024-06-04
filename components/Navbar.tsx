@@ -1,4 +1,4 @@
-"use client" // this is a client component
+"use client"
 import React from "react"
 import { useState } from "react"
 import { Link } from "react-scroll/modules"
@@ -20,6 +20,10 @@ const NAV_ITEMS: NavItem[] = [
   {
     label: "About",
     page: "about",
+  },
+  {
+    label: "Education",
+    page: "education",
   },
   {
     label: "Projects",
@@ -80,17 +84,11 @@ export default function Navbar() {
                 )
               })}
               {currentTheme === "dark" ? (
-                <button
-                  onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
+                <button onClick={() => setTheme("light")} className="bg-slate-100 p-2 rounded-xl">
                   <RiSunLine size={25} color="black" />
                 </button>
               ) : (
-                <button
-                  onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
+                <button onClick={() => setTheme("dark")} className="bg-slate-100 p-2 rounded-xl">
                   <RiMoonFill size={25} />
                 </button>
               )}
