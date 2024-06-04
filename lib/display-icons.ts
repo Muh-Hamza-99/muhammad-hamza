@@ -16,6 +16,7 @@ export const skills: string[] = [
   "python",
   "sklearn",
   "tensorflow",
+  "c",
   "netlify",
   "docker",
   "terraform"
