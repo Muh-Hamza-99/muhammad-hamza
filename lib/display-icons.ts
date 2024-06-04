@@ -7,7 +7,6 @@ export const skills: string[] = [
   "next",
   "nodejs",
   "express",
-  "nest",
   "mongodb",
   "postgresql",
   "prisma",
