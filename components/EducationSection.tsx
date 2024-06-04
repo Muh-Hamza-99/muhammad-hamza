@@ -12,7 +12,7 @@ const EducationSection = () => {
               High School
             </h1>
             <p>
-              I graduated high school from Manarat Al-Riyadh International School. I did <span className="text-teal-500 font-bold">8 IGCSE's</span>, 
+              I graduated high school from Manarat Al-Riyadh International School. I did <span className="text-teal-500 font-bold">8 IGCSEs</span>, 
               <span className="text-teal-500 font-bold"> 4 AS Levels</span> and <span className="text-teal-500 font-bold">3 A Levels</span>.
             </p>
             <br />
