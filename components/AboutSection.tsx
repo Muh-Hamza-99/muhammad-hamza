@@ -28,7 +28,7 @@ const AboutSection = () => {
             <br />
             <p>
             Apart from that, I do get homesick quite a bit! Whether it be the hot, dusty and lively nights of Riyadh
-            or the scenic views and crisp air of Pakistan, I miss it. If you do as well, let's talk!
+            or the scenic views and crisp air of Pakistan, I miss it. If you do as well, lets talk!
             </p>
             <br />
             <p>
